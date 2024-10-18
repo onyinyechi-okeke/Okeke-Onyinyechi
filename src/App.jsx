@@ -9,7 +9,7 @@ function App() {
     <div className="max-w-[1728px] mx-auto bg-background">
      <NavBar />
      <Routes>
-     <Route path='/Home' element={<Home />} />
+     <Route path='/' element={<Home />} />
      </Routes>
     </div>
   )

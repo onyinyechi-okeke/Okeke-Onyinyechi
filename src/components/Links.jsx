@@ -17,7 +17,7 @@ function Links({style}) {
   return (
     <div className={` ${style} gap-[30px]`}>
         {links.map(({id, link}) =>(
-            <Link key={id} to='/Home' className={`text-[24px] font-[600] transition-colors duration-500 ease-in-out ${activeLink === link ? 'text-primary' : 'text-black'}`}
+            <Link key={id} to='/' className={`text-[24px] font-[600] transition-colors duration-500 ease-in-out ${activeLink === link ? 'text-primary' : 'text-black'}`}
             onClick={() => handleLinkClick(link)}>
                 {link}
             </Link>
